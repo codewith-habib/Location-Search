@@ -1,7 +1,7 @@
 name: location_search
 
 services:
-  location_search:
-    build: .
+  location-search:
+    image: habib80246/location-search-app
     ports:
       - '3000:80'
