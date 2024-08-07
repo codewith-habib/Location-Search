@@ -38,13 +38,13 @@ This is a Location Search app built with React and TypeScript. You can use this 
 
 1. **Copy the docker-compose File:**
     ```sh
-name: location_search
+    name: location_search
 
-services:
-  location-search:
-    image: habib80246/location-search-app
-    ports:
-      - '3000:80'
+    services:
+      location-search:
+        image: habib80246/location-search-app
+        ports:
+          - '3000:80'
     ```
 
 2. **Run the Command:**
