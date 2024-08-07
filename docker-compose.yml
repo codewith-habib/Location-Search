@@ -1,0 +1,7 @@
+name: location_search
+
+services:
+  location_search:
+    build: .
+    ports:
+      - '3000:80'
